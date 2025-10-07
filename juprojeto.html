@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Música</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #ffd700, #ff69b4);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    section,
+    header {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      margin: 30px auto;
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .navbar {
+      background: #ff69b4 !important;
+    }
+
+    .navbar .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .navbar-brand {
+      color: #fff;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #ff69b4;
+      color: white;
+    }
+
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+
+    .text-highlight {
+      color: #ff69b4;
+    }
+
+    .btn-custom {
+      background-color: #ffd700;
+      color: black;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #ffcf33;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">🎵 Música</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#historia">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="#generos">Gêneros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#artistas">Cantores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#favoritas">Favoritas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold text-highlight">Música</h1>
+      <p class="lead">Sentimentos, histórias e batidas que marcam momentos.</p>
+      <a href="#historia" class="btn btn-custom btn-lg">Começar</a>
+    </div>
+  </header>
+
+  <!-- História da Música -->
+  <section id="historia">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">📖 História da Música</h2>
+      <p>A música é uma forma de arte que existe desde os primórdios da humanidade. Sons usados em rituais, celebrações e narração de histórias deram origem à música como conhecemos hoje.</p>
+      <p>Ela evoluiu através dos séculos, acompanhando os avanços tecnológicos e as mudanças culturais, tornando-se um meio poderoso de expressão e conexão entre pessoas do mundo todo.</p>
+    </div>
+  </section>
+
+  <!-- Gêneros musicais -->
+  <section id="generos">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">🎧 Gêneros Musicais</h2>
+      <ul class="list-group list-group-numbered">
+        <li class="list-group-item">Pop</li>
+        <li class="list-group-item">Indie</li>
+        <li class="list-group-item">R&B</li>
+        <li class="list-group-item">Trap</li>
+        <li class="list-group-item">MPB</li>
+        <li class="list-group-item">Eletrônica</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Artistas -->
+  <section id="artistas">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">🎤 Cantores e Cantoras</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Lana_Del_Rey_in_2012.jpg"
+              class="card-img-top" alt="Lana Del Rey">
+            <div class="card-body">
+              <h5 class="card-title">🌙 Lana Del Rey</h5>
+              <p class="card-text">Ícone indie-pop conhecida por letras melancólicas e estética retrô cinematográfica.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/The_Weeknd_2021.jpg"
+              class="card-img-top" alt="The Weeknd">
+            <div class="card-body">
+              <h5 class="card-title">🎙️ The Weeknd</h5>
+              <p class="card-text">Mistura de R&B e pop futurista, famoso por hits como "Blinding Lights".</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Lu%C3%ADsa_Sonza_em_2022.jpg"
+              class="card-img-top" alt="Luísa Sonza">
+            <div class="card-body">
+              <h5 class="card-title">🔥 Luísa Sonza</h5>
+              <p class="card-text">Popstar brasileira com letras intensas e atitude marcante nos palcos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Travis_Scott_2022.jpg"
+              class="card-img-top" alt="Travis Scott">
+            <div class="card-body">
+              <h5 class="card-title">🌌 Travis Scott</h5>
+              <p class="card-text">Rapper e produtor visionário, conhecido por seus shows imersivos e beats únicos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Billie_Eilish_2021.jpg"
+              class="card-img-top" alt="Billie Eilish">
+            <div class="card-body">
+              <h5 class="card-title">🖤 Billie Eilish</h5>
+              <p class="card-text">Estilo sombrio, voz suave e autenticidade fizeram dela um fenômeno global.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Músicas favoritas -->
+  <section id="favoritas">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">🎶 Músicas Favoritas</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">"Summertime Sadness" – Lana Del Rey</li>
+        <li class="list-group-item">"Blinding Lights" – The Weeknd</li>
+        <li class="list-group-item">"Penhasco2" – Luísa Sonza & Demi Lovato</li>
+        <li class="list-group-item">"SICKO MODE" – Travis Scott</li>
+        <li class="list-group-item">"Happier Than Ever" – Billie Eilish</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Curiosidades -->
+  <section id="curiosidades">
+    <
+  <!-- Curiosidades -->
+  <section id="curiosidades">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">💡 Curiosidades sobre Música</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">A música pode melhorar o humor, reduzir o estresse e até ajudar na concentração.</li>
+        <li class="list-group-item">O ouvido humano consegue identificar mais de 300 mil tons diferentes.</li>
+        <li class="list-group-item">O Brasil é um dos maiores exportadores de artistas da música latina e pop.</li>
+        <li class="list-group-item">A batida do coração tende a se sincronizar com o ritmo da música que ouvimos.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-4">
+    <p class="mb-1">🎵 Site sobre Música - Desenvolvido por Isabelle Ramos</p>
+    <p class="small">Fontes: Spotify, Wikipédia, Rolling Stone, Genius</p>
+    <p><a href="#inicio">⬆️ Voltar ao topo</a></p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
