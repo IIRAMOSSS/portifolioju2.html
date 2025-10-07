@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sertanejo</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #eaeaea, #dcdcdc);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    section,
+    header {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      margin: 30px auto;
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar {
+      background: #444 !important;
+    }
+
+    .navbar .nav-link,
+    .navbar-brand {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #444;
+      color: white;
+    }
+
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .text-highlight {
+      color: #444;
+    }
+
+    .btn-custom {
+      background-color: #888;
+      color: white;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+
+<body id="inicio">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">🎸 Sertanejo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#historia">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="#estilos">Estilos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cantores">Cantores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#musicas">Músicas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold text-highlight">Música Sertaneja</h1>
+      <p class="lead">Romance, sofrência e tradição em forma de música.</p>
+      <a href="#historia" class="btn btn-custom btn-lg">Começar</a>
+    </div>
+  </header>
+
+  <!-- História -->
+  <section id="historia">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">📖 História do Sertanejo</h2>
+      <p>O sertanejo surgiu no interior do Brasil no início do século XX, com influências da música caipira. Com o tempo, evoluiu para diferentes estilos, do raiz ao universitário.</p>
+      <p>Hoje, o sertanejo é um dos gêneros mais populares do país, com artistas que arrastam multidões e lideram as paradas musicais.</p>
+    </div>
+  </section>
+
+  <!-- Estilos -->
+  <section id="estilos">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">🎶 Estilos Sertanejos</h2>
+      <ul class="list-group list-group-numbered">
+        <li class="list-group-item">Sertanejo Raiz</li>
+        <li class="list-group-item">Sertanejo Romântico</li>
+        <li class="list-group-item">Sertanejo Universitário</li>
+        <li class="list-group-item">Modão</li>
+        <li class="list-group-item">Sertanejo Pop</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Cantores -->
+  <section id="cantores">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">🎤 Cantores Sertanejos</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://www.hugoeguilherme.com.br/wp-content/uploads/2022/04/hugoeGuilherme_foto.jpg" class="card-img-top" alt="Hugo e Guilherme">
+            <div class="card-body">
+              <h5 class="card-title">🎤 Hugo & Guilherme</h5>
+              <p class="card-text">Dupla que mistura romantismo e hits dançantes com vozes marcantes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://th.bing.com/th/id/OIP.KVvAO3rEUXckqTKeVZLhQAHaEK?pid=ImgDet&rs=1" class="card-img-top" alt="Henrique e Juliano">
+            <div class="card-body">
+              <h5 class="card-title">🎵 Henrique & Juliano</h5>
+              <p class="card-text">Ícones do sertanejo universitário, com letras intensas e grande público.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://th.bing.com/th/id/OIP.PKwq2EV_qPRbkHtKdzEZkQHaFj?pid=ImgDet&rs=1" class="card-img-top" alt="Kauan">
+            <div class="card-body">
+              <h5 class="card-title">🎸 Matheus & Kauan</h5>
+              <p class="card-text">Canções que marcaram uma geração, com estilo moderno e romântico.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Músicas Favoritas -->
+  <section id="musicas">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">📻 Músicas Favoritas</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">"Seu Bombeiro" – Hugo & Guilherme</li>
+        <li class="list-group-item">"Cuida Bem Dela" – Henrique & Juliano</li>
+        <li class="list-group-item">"O Nosso Santo Bateu" – Matheus & Kauan</li>
+        <li class="list-group-item">"Escreve Aí" – Luan Santana</li>
+        <li class="list-group-item">"Medo Bobo" – Maiara & Maraisa</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Curiosidades -->
+  <section id="curiosidades">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">💡 Curiosidades sobre Sertanejo</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">O sertanejo é o gênero mais tocado nas rádios brasileiras há mais de 10 anos.</li>
+        <li class="list-group-item">Sertanejo universitário surgiu nos anos 2000, voltado ao público jovem.</li>
+        <li class="list-group-item">As letras geralmente falam de amor, saudade, festa e vida no interior.</li>
+        <li class="list-group-item">Duplas sertanejas são tradição desde os tempos de Tonico & Tinoco.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-4">
+    <p class="mb-1">🎸 Site sobre Sertanejo - Desenvolvido por Julia Melo</p>
+    <p class="small">Fontes: Spotify, YouTube Music, Wikipédia</p>
+    <p><a href="#
