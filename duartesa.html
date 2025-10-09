@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Música</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #00b4db, #0083b0); /* azul e turquesa */
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    section,
+    header {
+      background: #f5f5f5; /* cinza claro */
+      border-radius: 15px;
+      padding: 40px;
+      margin: 30px auto;
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar {
+      background: #0083b0 !important; /* azul escuro */
+    }
+
+    .navbar .nav-link {
+      color: #ffe600 !important; /* amarelo vivo */
+      font-weight: 500;
+    }
+
+    .navbar-brand {
+      color: #ffe600;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #004e66; /* azul mais escuro */
+      color: #ffffff;
+    }
+
+    footer a {
+      color: #00e5ff; /* azul neon */
+      text-decoration: none;
+    }
+
+    .text-highlight {
+      color: #ff6f61; /* coral vibrante */
+    }
+
+    .btn-custom {
+      background-color: #ff6f61; /* coral */
+      color: white;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #ff3b2e;
+    }
+  </style>
+</head>
+
+<body id="inicio">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">🎵 Música</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#historia">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="#generos">Gêneros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#artistas">Cantores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#favoritas">Favoritas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold text-highlight">Música</h1>
+      <p class="lead">Sentimentos, histórias e batidas que marcam momentos.</p>
+      <a href="#historia" class="btn btn-custom btn-lg">Começar</a>
+    </div>
+  </header>
+
+  <!-- História da Música -->
+  <section id="historia">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">📖 História da Música</h2>
+      <p>A música é uma forma de arte que existe desde os primórdios da humanidade. Sons usados em rituais, celebrações e narração de histórias deram origem à música como conhecemos hoje.</p>
+      <p>Ela evoluiu através dos séculos, acompanhando os avanços tecnológicos e as mudanças culturais, tornando-se um meio poderoso de expressão e conexão entre pessoas do mundo todo.</p>
+    </div>
+  </section>
+
+  <!-- Gêneros musicais -->
+  <section id="generos">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">🎧 Gêneros Musicais</h2>
+      <ul class="list-group list-group-numbered">
+        <li class="list-group-item">Pop</li>
+        <li class="list-group-item">Sertanejo</li>
+        <li class="list-group-item">R&B</li>
+        <li class="list-group-item">Pagode</li>
+        <li class="list-group-item">MPB</li>
+        <li class="list-group-item">Funk</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Artistas -->
+  <section id="artistas">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">🎤 Cantores e Cantoras</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://th.bing.com/th?id=OIF.cLL%2fKkSvugaeoz0NI1c2pQ&cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+              class="card-img-top" alt="The Weeknd">
+            <div class="card-body">
+              <h5 class="card-title">🎙️ Ana castela</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.STBlgjsHTpYB5ErlKETnKQHaE8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+              class="card-img-top" alt="Luísa Sonza">
+            <div class="card-body">
+              <h5 class="card-title">🔥 Luísa Sonza</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://th.bing.com/th/id/R.65cf6683c7dfe025fb0a871a2ee27a79?rik=I%2bWJcXrrWIugpw&pid=ImgRaw&r=0"
+              class="card-img-top" alt="Travis Scott">
+            <div class="card-body">
+              <h5 class="card-title">🌌 Marilia Mendonça</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Músicas favoritas -->
+  <section id="favoritas">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-highlight">🎶 Músicas Favoritas</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">"Presepada- Malilia Mendonça</li>
+        <li class="list-group-item">"50 reais – Naiara Azevedo</li>
+        <li class="list-group-item">"Penhasco2" – Luísa Sonza & Demi Lovato</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>Projeto musical — Desenvolvido por sara duarte</p>
+  </footer>
+</html>
